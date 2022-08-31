@@ -1,2 +1,7 @@
-# OCR-effectiveness-measure
-develop a program to measure pytesseract effectiveness
+# 第五組-OCR翻譯與正確率評估
+## 專案目標：
+- 透過[pytesseract](https://pypi.org/project/pytesseract/)將第四組團隊產生的圖片輸出成文字。
+- 使用Python語言編寫正確評估文字轉換正確率的功能。評估指標參考實作案例後挑選以下3種：
+    - 單字準確率：計算全部錯誤單字佔總單字的比例。
+    - 字段準確率：每張圖片產生的文字段落作為1個字段，計算有錯誤的字段佔全部字段的比例。
+    - 平均最小編輯距離(Levenshtein Distance)：計算每個字段以字母為單位修正為正確文章的最低次數作為最小編輯距離，計算全部字段最小邊集距離的平均值。

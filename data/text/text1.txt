@@ -1,0 +1,18 @@
+Abstract—Game AI competitions are important to foster re- search and development on Game AI and AI in general. These
+competitions supply different challenging problems that can be
+translated into other contexts, virtual or real. They provide
+frameworks and tools to facilitate the research on their core
+topics and provide means for comparing and sharing results. A
+competition is also a way to motivate new researchers to study
+these challenges. In this document, we present the Geometry
+Friends Game AI Competition. Geometry Friends is a two-player
+cooperative physics-based puzzle platformer computer game. The
+concept of the game is simple, though its solving has proven to
+be difficult. While the main and apparent focus of the game is
+cooperation, it also relies on other AI related problems such as
+planning, plan execution, and motion control, all connected to
+situational awareness. All of these must be solved in real-time.
+In this paper we discuss the competition and the challenges it
+brings, and present an overview of the current solutions.
+Index Terms—game AI, collaboration, cooperation, team AI,
+AI competition, task and motion planning, physics-based game.
