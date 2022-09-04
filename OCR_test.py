@@ -5,6 +5,11 @@ import os
 
 #單字正確率
 def ocr_check(x,y):
+    """
+    input: 
+    - x: ... 
+    - y: ...
+    """
     cor=0
     err=0
     for i in range(len(x)):
