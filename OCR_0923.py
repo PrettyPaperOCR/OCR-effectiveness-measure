@@ -78,8 +78,8 @@ def ocr_measure(ocr_path,text_path):
             p_corr+=1
         else:
             p_wrong+=1
-            p_arr.append(sum(w_arr))
             p_worng_meg.append(f"第{file_num}篇文檔翻譯錯誤{newline}")
+        p_arr.append(lev(ori_text,ocr_text))
     with open("paragraphmeasure_log.txt","a+",encoding="utf8") as f: #輸出檢測結果
         f.write(f"共{len(text_list)}段文章，其中{newline}{newline}")
         f.writelines(p_worng_meg)
@@ -90,6 +90,7 @@ def ocr_measure(ocr_path,text_path):
 
 
 ocr("./data/image/")
+
 ocr_measure("./ocrtext/","./data/text/")
 
 
