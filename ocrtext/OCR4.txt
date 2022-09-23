@@ -1,0 +1,20 @@
+II. GAME AI COMPETITIONS
+
+Game AI competitions have been taking place for several
+decades.
+
+For example, the Computer Olympiad ran by ICGA|, started
+in 1989. It challenges participants to submit agents, or pro-
+grams, that can play one or more games, mostly board and
+card games.
+
+The Battlecode” is described as “MIT’s longest-running
+programming competition”. It presents a turn-based strategic
+game where two teams of agents compete against each other
+having to manage resources and use combat tactics. Each year,
+different challenges are added to the game.
+
+There are some competitions that include collaboration as
+a challenge for the Game AI and some other competitions
+address Physics-Based Simulation Games [3]. Both these
+topics are relevant in the Geometry Friends competition, but

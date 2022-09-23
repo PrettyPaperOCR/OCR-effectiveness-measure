@@ -1,0 +1,24 @@
+motivate many researchers to work on difficult problems and
+provide, at the same time, a framework for common ground to
+contextualise and compare research. Also, competitions may
+be used to support teaching of Game AI (and AI in general)
+as they present very concrete problems for students to address
+and, typically, share openly the submissions and results.
+
+In this paper, we present the Geometry Friends Game AI
+Competition [2] that runs around a physics based collaborative
+puzzle-platformer game (Geometry Friends). Because of its
+cooperative nature, the game promotes interesting AI chal-
+lenges that are not often seen in game AI competitions. It
+provides challenges of collaboration and team AI at different
+levels. In the paper, we discuss some of the results obtained
+so far and the implications and potential importance of the
+competition for game AI research. We start by explaining the
+Geometry Friends game in section III, after some discussion
+of related work on competitions of game AI, in section II. In
+section IV we enumerate the AI problems that can be explored
+with the game. We then present the competition and framework
+in the respective sections V and VI. Afterwards, we describe
+briefly the solutions developed so far, in section VII, most of
+which competed in previous competitions. Finally, we draw
+some conclusions in section VIII and discuss future work.
